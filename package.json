@@ -22,7 +22,8 @@
     "@angular/router": "^6.1.0",
     "core-js": "^2.5.4",
     "rxjs": "^6.0.0",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.8.26",
+    "tslib": "^1.9.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.7.0",
@@ -48,5 +49,14 @@
     "tslib": "^1.9.0",
     "tslint": "~5.9.1",
     "typescript": "~2.7.2"
-  }
+  },
+  "main": "dist/my-lib/bundles/my-lib.umd.js",
+  "module": "dist/my-lib/fesm5/my-lib.js",
+  "es2015": "dist/my-lib/fesm2015/my-lib.js",
+  "esm5": "dist/my-lib/esm5/my-lib.js",
+  "esm2015": "dist/my-lib/esm2015/my-lib.js",
+  "fesm5": "dist/my-lib/fesm5/my-lib.js",
+  "fesm2015": "dist/my-lib/fesm2015/my-lib.js",
+  "typings": "dist/my-lib/my-lib.d.ts",
+  "metadata": "dist/my-lib/my-lib.metadata.json"
 }
